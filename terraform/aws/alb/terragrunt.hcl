@@ -102,6 +102,9 @@ inputs = {
       http_tcp_listener_index = 0
       priority                = 2
       target_group_index      = 0
+      actions = [{
+        type = "forward"
+      }]
 
       conditions = [{
         path_patterns = ["/page1.html"]
@@ -111,6 +114,9 @@ inputs = {
       http_tcp_listener_index = 0
       priority                = 1
       target_group_index      = 1
+      actions = [{
+        type = "forward"
+      }]
 
       conditions = [{
         path_patterns = ["/page2.html"]
