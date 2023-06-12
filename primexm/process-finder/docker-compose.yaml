@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  mysql:
+    image: mysql:8
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=9DqvPEoMGHPQgBD7BjpQ
+      - MYSQL_DATABASE=processes
+      - MYSQL_USER=processes
+      - MYSQL_PASSWORD=hyDDKkZX7Te4wixereAb

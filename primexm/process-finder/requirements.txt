@@ -1,0 +1,4 @@
+psutil
+pymysql
+mysql-connector-python
+mysqlclient

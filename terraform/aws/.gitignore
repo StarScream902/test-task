@@ -1,6 +1,0 @@
-.terraform
-.terragrunt-cache
-.terraform.lock.hcl
-/backend.tf
-/providers.tf
-vars.hcl
